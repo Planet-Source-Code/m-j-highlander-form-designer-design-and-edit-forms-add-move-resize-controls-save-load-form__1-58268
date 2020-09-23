@@ -1,0 +1,50 @@
+AxForm v1.0
+Begin Form
+   Name = "AxForm"
+   Text = "Clean HTML"
+   Height = 4215
+   Left = 2355
+   Width = 5070
+   Top = 3060
+End
+Begin CheckBox
+   Name = "chkCSS"
+   Text = "Remove CSS"
+   Height = 315
+   Left = 800
+   Width = 2355
+   Top = 600
+End
+Begin CheckBox
+   Name = "chkTable"
+   Text = "Remove <Table> and <Div>"
+   Height = 315
+   Left = 800
+   Width = 2355
+   Top = 900
+End
+Begin CheckBox
+   Name = "chkMeta"
+   Text = "Remove <meta> Tags (except the CharPage)"
+   Height = 315
+   Left = 800
+   Width = 3885
+   Top = 1200
+End
+Begin OptionBtn
+   Name = "optDelImgs"
+   Text = "Remove All <img> Tags"
+   Height = 315
+   Left = 800
+   Width = 2475
+   Top = 2100
+End
+Begin OptionBtn
+   Name = "optValidateImg"
+   Text = "Validate <img> Tags"
+   Height = 315
+   Left = 800
+   Width = 2475
+   Top = 1800
+End
+
